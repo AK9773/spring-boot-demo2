@@ -9,7 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                 
-                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/AK9773/spring-boot-demo1.git'
+                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/AK9773/spring-boot-demo2.git'
 
               
 
